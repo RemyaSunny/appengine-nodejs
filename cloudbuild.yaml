@@ -1,5 +1,5 @@
 steps:
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
     entrypoint: "bash"
-    args: ["-c", "ls", "gcloud app deploy app.yaml"]
+    args: ["-c", "gcloud app deploy app.yaml", "ls"]
 timeout: "1600s"
